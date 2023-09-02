@@ -1,0 +1,22 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "scripts": {
+    "test": "babel-node test.js",
+    "start": "babel-node sever.js"
+  },
+  "author": "qanqan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "axios": "^1.3.4",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-html-parser": "^6.1.5",
+    "nodemon": "^2.0.22"
+  }
+}
